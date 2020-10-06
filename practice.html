@@ -47,7 +47,51 @@
                     <td>9 points!</td>
                 </tr>
                 </tfoot>
-            
-        </table>
+            </table>
+                <fieldset>
+                    <legend>Questions for Arsenal Fans</legend>
+                <form action="http://nowhere.com" method="GET">
+                    <p>What's your name?</p>
+                <input type="text" name="username" maxlength="20">
+                </form>
+
+                <form action="http://nowhere.com" method="GET">
+                    <p>Got any secret jokes to share?</p>
+                <input type="password" name="password" maxlength="30">
+            </form>
+
+      <form action="http://nowhere.com" method="GET"><p>Thoughts on our season?</p>
+            <textarea name="comments">Thoughts...?</textarea>
+        </form>
+
+        <form action="http://nowhere.com">
+            <p>Favorite player?</p>
+        <input type="radio" name="choices" value="Auba">Auba
+        <input type="radio" name="choices" value="Pepe">Pepe
+        <input type="radio" name="choices" value="Partey">Partey
+    </form>
+
+      <form action="http://nowhere.com">
+        <p>Which transfers were you happy with?</p>
+ 
+         <input type="checkbox" name="happyChoices" value="Gabriel">Gabriel
+        <input type="checkbox" name="happyChoices" value="Ceballos">Ceballos
+        <input type="checkbox" name="happyChoices" value="Partey" checked="checked">Partey
+      </form>
+
+        <form action="http://nowhere.com">
+        <p>Which manager has been the most likeable in the last season?</p>
+    <select name="manager">
+        <option value="Emery">Emery</option>
+        <option value="Arteta">Arteta</option>
+    </select></form>
+
+    <form action="http://nowhere.com" method="POST">
+        <p>Don't like my wallpaper? Upload something you like!</p>
+        <input type="file" name="wallpaper">
+    <input type="submit" name="upload">
+</form>
+</fieldset>
+
     </body>
 </html>
